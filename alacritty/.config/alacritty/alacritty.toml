@@ -1,21 +1,29 @@
-import = ["~/.config/alacritty/colors/rootloops.toml"]
+general.import = ["~/.config/alacritty/colors/catpuccino-mocca.toml"]
 
-live_config_reload = true
+general.live_config_reload = true
+
+
+window.title = "Gonz's terminal"
+
+[window.dimensions]
+columns = 80
+lines = 26
+
 
 [font]
 size = 12.0
 
 [font.bold]
-family = "FiraCode Nerd Font"
+family = "0xProto Nerd Font"
 
 [font.bold_italic]
-family = "FiraCode Nerd Font"
+family = "0xProto Nerd Font"
 
 [font.italic]
-family = "FiraCode Nerd Font"
+family = "0xProto Nerd Font"
 
 [font.normal]
-family = "FiraCode Nerd Font"
+family = "0xProto Nerd Font"
 
 [window.padding]
 x = 10
